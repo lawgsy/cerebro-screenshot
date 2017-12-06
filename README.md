@@ -24,3 +24,5 @@ Type screenshot and then select a way of copying/saving.
 ## License
 
 MIT © lawgsy
+
+Plugin icon (`src/icon.png`) by [Dakirby309](https://dakirby309.deviantart.com/) under [Creative Commons (Attribution-Noncommercial 3.0 Unported)](http://creativecommons.org/licenses/by-nc/3.0/)

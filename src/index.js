@@ -4,8 +4,7 @@ import getScreen from 'user-media-screenshot';
 import {clipboard, nativeImage} from 'electron'
 
 import styles from './Preview/styles.css'
-
-
+import iconPath from './icon.png'
 
 const fn = ({ term, display, actions, settings }) => {
   if (term.match(/^screenshot\s?$/i)) {
@@ -15,7 +14,8 @@ const fn = ({ term, display, actions, settings }) => {
       document.documentElement.style.display = "inline"
       display({
         title: `Screenshot preview`,
-        getPreview: () => <Preview data={image} settings={settings} />
+        getPreview: () => <Preview data={image} settings={settings} />,
+        icon: iconPath
       })
     })
   }
@@ -23,6 +23,7 @@ const fn = ({ term, display, actions, settings }) => {
 
 export default {
   name: 'Take screenshot',
+  icon: iconPath,
   fn,
   keyword: 'screenshot',
   settings: {
