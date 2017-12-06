@@ -1,0 +1,31 @@
+{
+  "name": "cerebro-screenshot",
+  "version": "0.1.0",
+  "description": "Cerebro plugin for taking screenshots",
+  "license": "MIT",
+  "repository" : "lawgsy/cerebro-screenshot",
+  "author": {
+    "name": "lawgsy",
+    "email": "lawgsy@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16",
+    "user-media-screenshot": "^1.0.2"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.20"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin",
+    "screenshot"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test"
+  }
+}

@@ -1,0 +1,9 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+}
